@@ -3,7 +3,7 @@ import { ArrowRight, Mail, Linkedin, Sparkles, Heart, Zap } from "lucide-react";
 import { projects } from "../data/projects";
 import { motion } from "motion/react";
 import { Button } from "../components/ui/button";
-import avatarImage from "figma:asset/bece43ec8d68c030dee96a23bc4bae4db9a77bcf.png";
+import avatarImage from "figma:asset/amiphoto.png";
 
 export default function Home() {
   return (
