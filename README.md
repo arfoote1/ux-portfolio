@@ -1,7 +1,7 @@
 
-  # Revamp content design portfolio
+  # Ami Foote Content Designer
 
-  This is a code bundle for Revamp content design portfolio. The original project is available at https://www.figma.com/design/se551UFj7BPgmd6UQAsWp2/Revamp-content-design-portfolio.
+  This is a code bundle for Ami Foote Content Designer. The original project is available at https://www.figma.com/design/se551UFj7BPgmd6UQAsWp2/Ami-Foote-Content-Designer.
 
   ## Running the code
 
