@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Heart, Sparkles, Mail, Linkedin } from "lucide-react";
 import { Button } from "../components/ui/button";
-import avatarImage from "figma:asset/bece43ec8d68c030dee96a23bc4bae4db9a77bcf.png";
+import avatarImage from "figma:asset/amiphoto.png
 
 export default function About() {
   return (
