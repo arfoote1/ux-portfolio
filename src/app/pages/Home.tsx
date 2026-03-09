@@ -3,7 +3,7 @@ import { ArrowRight, Mail, Linkedin, Sparkles, Heart, Zap } from "lucide-react";
 import { projects } from "../data/projects";
 import { motion } from "motion/react";
 import { Button } from "../components/ui/button";
-import avatarImage from "figma:asset/amiphoto.png";
+import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export default function Home() {
   return (
@@ -56,8 +56,8 @@ export default function Home() {
               <Sparkles className="absolute -bottom-8 -left-8 w-8 h-8 text-purple-300 animate-pulse" style={{ animationDelay: '0.5s' }} />
               
               <div className="relative w-[450px] h-[450px]">
-                <img 
-                  src={avatarImage} 
+                <ImageWithFallback 
+                  src="https://i.imgur.com/PHfhPi6.png"
                   alt="Ami Foote"
                   className="w-full h-full object-contain drop-shadow-2xl"
                   style={{ 

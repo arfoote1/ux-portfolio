@@ -2,8 +2,7 @@ import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Heart, Sparkles, Mail, Linkedin } from "lucide-react";
 import { Button } from "../components/ui/button";
-// replace the old broken/figma import line with this:
-import avatarImage from '../../assets/amiphoto.png';
+
 export default function About() {
   return (
     <div className="min-h-screen bg-white">
