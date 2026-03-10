@@ -364,7 +364,7 @@ export default function CaseStudy() {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-gray-100">
         <div className="max-w-7xl mx-auto text-center text-gray-500 text-sm">
-          <p>© 2024 Ami Foote. Designed and built with care.</p>
+          <p>© 2025 Ami Foote. Designed and built with care.</p>
         </div>
       </footer>
     </div>

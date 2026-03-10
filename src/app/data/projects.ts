@@ -338,7 +338,7 @@ export const projects: Project[] = [
         {
           title: "Transparent, Confidence-Based Diagnosis",
           description: "User feedback:\n\"I don't know how accurate this is.\"\n\"Why is it saying that?\"\n\nWe redesigned the diagnosis page to build trust. The screen now includes a visible confidence percentage and a clear explanation of how the result was determined.",
-          image: "https://i.imgur.com/Ab4O5np.png",
+          image: "https://i.imgur.com/7TNRX0f.png",
         },
         {
           title: "Product Recommendations Connected to Diagnosis",
