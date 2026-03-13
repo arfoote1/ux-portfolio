@@ -134,6 +134,7 @@ export default function Home() {
               <ProjectCard project={projects[0]} index={0} color="bg-[#1e40af]" />
               <ProjectCard project={projects[1]} index={1} color="bg-[#67e8f9]" />
               <ProjectCard project={projects[2]} index={2} color="bg-gray-100" />
+              <ProjectCard project={projects[3]} index={3} color="bg-[#c084fc]" />
             </div>
           </motion.div>
         </div>

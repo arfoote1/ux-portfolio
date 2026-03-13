@@ -24,7 +24,7 @@ export interface Project {
     image?: string;
   };
   
-  research: {
+  research?: {
     title: string;
     content: string;
     insights?: { title: string; description: string }[];
@@ -360,6 +360,65 @@ export const projects: Project[] = [
         "Give users control over the experience—photo upload felt more flexible and less pressured than real-time scanning",
         "Don't just identify the problem, show the solution—connecting diagnosis to products made the feature genuinely useful",
         "Test multiple concepts early—testing 8 entry point designs helped us find the clearest, most inviting approach before building",
+      ],
+    },
+  },
+  {
+    id: "ai-experimentation",
+    title: "AI Experimentation",
+    subtitle: "Interactive tools that bring my content principles to life",
+    company: "Personal Project",
+    year: "2025",
+    role: "Content Designer & Developer",
+    thumbnail: "https://images.unsplash.com/photo-1761223956849-c6912f2179aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGdyYWRpZW50JTIwcHVycGxlJTIwcGluayUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzczNDEyMDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    heroImage: "https://images.unsplash.com/photo-1761223956849-c6912f2179aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGdyYWRpZW50JTIwcHVycGxlJTIwcGluayUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzczNDEyMDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    summary: "Interactive demonstrations of content strategy in action, showing how thoughtful writing transforms user experiences.",
+    tags: ["Content Strategy", "Interactive Design", "AI Exploration", "UX Writing"],
+    
+    context: {
+      title: "Why Build This?",
+      content: "As a content designer, I've spent years advocating for clarity, accessibility, and user-centered language. But showing is more powerful than telling. These interactive tools let you experience the principles I use every day—transforming complex, technical content into clear, human communication.",
+    },
+    
+    problem: {
+      title: "The Challenge of Showing Invisible Work",
+      content: "Content design is often invisible. When it works well, users don't notice it—they just complete their tasks smoothly. But that makes it hard to demonstrate the craft and strategic thinking behind good content. I wanted to create something tangible that reveals the 'before and after' of content work and the frameworks that guide my decisions.",
+    },
+    
+    solution: {
+      title: "Two Interactive Tools",
+      content: "I built two tools that demonstrate different aspects of content strategy: one shows the transformation from technical to clear language, the other guides you through the decision-making process I use for every piece of content.",
+      features: [
+        {
+          title: "Content Clarity Checker",
+          description: "See real examples of content transformation across three common scenarios at Lowe's: error messages, onboarding instructions, and AI content guidelines. Toggle between 'before' and 'after' to see what changes and why.",
+          image: "https://i.imgur.com/placeholder-clarity.png"
+        },
+        {
+          title: "Content Decision Tree",
+          description: "Answer three questions about your content scenario, and get personalized tone and language recommendations based on user context, emotional state, and stakes level—complete with examples to try and patterns to avoid.",
+          image: "https://i.imgur.com/placeholder-tree.png"
+        }
+      ]
+    },
+    
+    impact: {
+      title: "What This Demonstrates",
+      content: "These tools showcase my approach to content design: strategic, user-centered, and grounded in real scenarios. They reveal the thinking behind the work and make the invisible craft of content design tangible and interactive.",
+      metrics: [
+        { label: "Content Scenarios", value: "6+" },
+        { label: "Before/After Examples", value: "3" },
+        { label: "Decision Paths", value: "64" }
+      ]
+    },
+    
+    reflection: {
+      title: "What I Learned",
+      content: "Building these tools reinforced how much of content design is about systematic thinking. Good content isn't about inspiration—it's about having frameworks that help you make consistent, user-centered decisions at scale. And sometimes, the best way to explain your work is to let people experience it themselves.",
+      learnings: [
+        "Interactive experiences make abstract principles concrete and memorable",
+        "Content frameworks scale better than one-off decisions",
+        "Showing your process builds more credibility than showing just outcomes"
       ],
     },
   },
